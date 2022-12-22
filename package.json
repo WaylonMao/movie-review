@@ -1,0 +1,19 @@
+{
+  "name": "movie-review-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WaylonMao/movie-review-nodejs.git"
+  },
+  "author": "Weilong Mao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WaylonMao/movie-review-nodejs/issues"
+  },
+  "homepage": "https://github.com/WaylonMao/movie-review-nodejs#readme"
+}
