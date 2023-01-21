@@ -62,7 +62,6 @@ const Movie = (props) => {
               <Card.Header as='h5'>{movie.title}</Card.Header>
               <Card.Body>
                 <Card.Text>{movie.plot}</Card.Text>
-                {props.user && <Link to={'/movies/' + params.id + '/review'}>Add Review</Link>}
               </Card.Body>
             </Card>
             <br></br>
@@ -99,6 +98,7 @@ const Movie = (props) => {
                     </Card>
                   );
                 })}
+                {props.user && <Link to={'/movies/' + params.id + '/review'}>Add review</Link>}
               </Card.Body>
             </Card>
           </Col>
