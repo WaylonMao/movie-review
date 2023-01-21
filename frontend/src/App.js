@@ -33,15 +33,12 @@ function App() {
           </Nav>
         </Navbar.Collapse>
       </Navbar>
-
       <Routes>
-        <Route path='/'>
-          <Route path='/' element={<MoviesList />} />
-          <Route path='movies' element={<MoviesList />} />
-          <Route path='movies/:id/review' element={<AddReview user={user} />} />
-          <Route path='movies/:id/' element={<Movie user={user} />} />
-          <Route path='login' element={<Login login={login} />} />
-        </Route>
+        <Route path='/' element={<MoviesList />} />
+        <Route path='/movies' element={<MoviesList />} />
+        <Route path='/movies/:id/review' element={<AddReview user={user} />} />
+        <Route path='/movies/:id/' element={<Movie user={user} />} />
+        <Route path='/login' element={<Login login={login} />} />
       </Routes>
     </div>
   );
